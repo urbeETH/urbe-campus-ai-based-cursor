@@ -23,6 +23,35 @@ To get the best AI assistance for OnchainKit development:
 
 ## 🤖 Prompt Examples
 
+### Best Practices
+
+Before starting a new project:
+1. think about what you want to build and divide the project in tasks
+2. ask questions to understand what the Agent will do
+3. once you have a clear understanding of what the agent will do, ask him to implement some steps of it, just to see how it perform
+4. once you have the basic structure of the project, start implementing the tasks you defined in point #1
+
+> The bigger is the task that you give to the AI agent the higher is the prbability you'll encounter some error!
+
+
+Prompt structure:
+```
+# tag @onchainkit-docs in the chat 
+
+# When you start a new conversation, state a minimal context and give it the docs:
+I'm working on a onchainkit project. use @onchainkit-docs when it comes to integrating onchain functionalities
+
+# Describe specific issue
+1. Problem: I want the user to be able to sign in
+# (optional) explain what you've tried
+2. Current approach: xyz
+# (optional) mention any technical limitations
+3. Constraints: abc
+# describe what success looks like
+4. Expected outcome: the user should be able to connect the wallet and use it to call smart contracts
+```
+For smart contracts, always specify that you want to use the openzeppelin mcp.
+----
 Here are some effective prompts you can use with Cursor AI:
 
 ### Component Development
