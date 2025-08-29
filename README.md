@@ -49,10 +49,9 @@ I'm working on a onchainkit project. use @onchainkit-docs when it comes to integ
 3. Constraints: abc
 # describe what success looks like
 4. Expected outcome: the user should be able to connect the wallet and use it to call smart contracts
-
-
 ```
-
+For smart contracts, always specify that you want to use the openzeppelin mcp.
+----
 Here are some effective prompts you can use with Cursor AI:
 
 ### Component Development
