@@ -63,3 +63,13 @@ Key Conventions
 6. Follow security best practices
 
 Refer to OnchainKit documentation (onchainkit-docs added as Docs in cursor) for detailed implementation guides and API references.
+
+Smart Contracts
+- Always follow OpenZeppelin MCP when possible for smart contract development and security best practices
+- If OpenZeppelin MCP is not available or applicable for a specific task, explicitly inform the user
+- Use OpenZeppelin contracts and libraries for standard functionality
+- Implement proper access control and security patterns
+- Follow Solidity best practices and coding standards
+- Ask the user if he wants testing and coverage
+- Implement proper error handling and revert messages
+- Follow gas optimization best practices
