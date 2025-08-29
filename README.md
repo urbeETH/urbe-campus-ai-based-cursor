@@ -68,6 +68,7 @@ Here are some effective prompts you can use with Cursor AI:
 ```
 
 ### Smart Contract Integration
+> always tell to use the openzeppelin solidity mcp.
 ```
 "Create a hook to interact with the Counter contract using OnchainKit's transaction components"
 ```
